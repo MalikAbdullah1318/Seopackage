@@ -1,0 +1,21 @@
+{
+    "name": "abdullah/laravel-seo",
+    "description": "Advanced SEO module with sitemap and robots for Laravel",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Abdullah\\LaravelSeo\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Abdullah\\LaravelSeo\\Providers\\SeoServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": "^8.1"
+    }
+}
