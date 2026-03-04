@@ -1,8 +1,18 @@
 {
     "name": "abdullah/laravel-seo",
-    "description": "Advanced SEO module with sitemap and robots for Laravel",
+    "description": "Enterprise SEO package for Laravel with sitemap and robots support",
     "type": "library",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Muhammad Abdullah",
+            "email": "malikabdullah1318@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "illuminate/support": "^10.0|^11.0"
+    },
     "autoload": {
         "psr-4": {
             "Abdullah\\LaravelSeo\\": "src/"
@@ -15,7 +25,5 @@
             ]
         }
     },
-    "require": {
-        "php": "^8.1"
-    }
+    "minimum-stability": "stable"
 }
